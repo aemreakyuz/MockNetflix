@@ -1,0 +1,228 @@
+@import "reset.css";
+
+*{
+    /* border: 1px solid lime; */
+    color: black;
+    text-decoration: none;
+    /* background-color: transparent; */
+}
+
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    font-size:1em;
+    color:white
+}
+
+.button{
+    background-color: red;
+    color:white;
+    display:inline-block;
+}
+
+
+.button-lg{
+    font-size: 1.5em;
+    padding: 0.5em 2em 0.5em 0.5em;
+    border-radius: 0.5em;
+    margin: 2em 0;
+    width:6em;
+}
+
+.button-sm{
+    font-size: 1.2em;
+    padding: 0.5em 1.5em 0.5em 0.5em;
+    border-radius: 0.5em;
+    margin: 1em 0;
+}
+
+.spacer{
+    height:2em;
+}
+
+
+.all-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-main-video-container{
+    position: relative;
+}
+.main-video{
+    z-index:-1;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    position: absolute;
+ 
+}
+
+
+
+
+/* Header Section */
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2rem 1rem;
+    background-color: black;
+
+}
+
+.logo-container{
+    font-size: 2rem;
+    border: 2px solid red;
+    /* background-color:aqua; */
+    padding: 1rem;
+    color: white;
+}
+
+header nav{ 
+    display: flex;
+    gap:2em;   
+}
+
+header nav a{
+    font-size: 1.5rem;
+    color: white;  
+}
+
+.search-container{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    
+}
+
+form{
+    display: inline-block;
+    
+}
+
+input[name="search"]{
+    font-size: 1rem;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat right;
+    background-size: 1.5em;
+}
+
+.fa-bell{
+    color:white;
+}
+.fa-user{
+    color: white;
+}
+
+
+/*Main Section */
+.main-container{
+    display: flex;
+    flex-direction: column;
+    margin-top:8rem;
+    align-items: flex-start;
+    padding-left: 1.5rem;
+}
+
+.main-movie-container{
+    display:flex;
+    flex-direction: column;
+    gap: 2em;
+    
+    padding: 3em;  
+    
+}
+
+.info-section{
+    display:flex;
+    gap:0.5em;
+    align-items: center;
+}
+
+.rating-container i{
+    color:red;
+}
+
+.imdb-rating span{
+    font-weight: 500;
+}
+
+.age-container{
+    border: 1px solid gray;
+    padding: 0.2em;
+    border-radius: 0.3em;
+    
+}
+
+.description-container p {
+    font-size: 1.3em;
+    
+}
+
+.details-container span{
+    color:red;
+}
+
+/* MOVIE SUGGESTIONS */
+
+.movie-suggestions{
+    padding: 0 2%;
+}
+
+.popular-movies{
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 0;
+}
+
+.content-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.movie-card{
+    border:1px solid black;
+    width: 25%;
+    padding: 2em 1em 1em 1em;
+    
+}
+
+.movie-card h3 {
+    padding: 1em 0;
+
+}
+
+.content-container h3{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.recommended-suggestions{
+    padding: 0 2%;
+}
+
+
+
+footer{
+    display:flex;
+    justify-content: space-between;
+    padding: 0 1%;
+}
+
+.footer-nav-container{
+    width:40%;
+}
+footer nav{
+    display: flex;
+    justify-content: space-between;
+}
