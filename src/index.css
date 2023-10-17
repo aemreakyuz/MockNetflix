@@ -31,7 +31,7 @@ h1{
     font-size: 1.5em;
     padding: 0.5em 2em 0.5em 0.5em;
     border-radius: 0.5em;
-    margin-top: 2em;
+    
     width:6em;
     text-decoration: none;
 }
@@ -124,8 +124,8 @@ input[name="search"]{
     display: flex;
     flex-direction: column;
     line-height: 1.75rem;
-    gap: 0.5rem;
-    margin-top:8rem;
+    gap:2rem;
+    margin-top:5rem;
     padding: 5rem;  
 }
 .main-container h2{
@@ -176,6 +176,7 @@ input[name="search"]{
 .header-main-video-container{
     position: relative;
     padding-bottom: 1rem;
+    
 }
 
 .main-video{
