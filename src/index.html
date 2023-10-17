@@ -18,8 +18,9 @@
 </head>
 <body>
     <section class="all-container">
-        <div class="header-main-video-container">
-            <header class="header-container">
+
+        <header class="header-main-video-container">
+            <div class="header-container">
                 <div class="logo-container">
                     <h1>HDMovieHell</h1>
                 </div>
@@ -38,7 +39,7 @@
                             type="text" 
                             name="search"
                             placeholder="Search">
-                        <br>
+                        
                         </form>
                         <div className="notification">
                             <i class="fa-solid fa-bell fa-lg"></i>
@@ -48,7 +49,7 @@
                         </div>
                     </div>
                 </div>
-            </header>
+            </div>
             <section class="main-container"> 
                 <div class="title-container">
                     <h2>BREAKING BAD</h2>
@@ -93,16 +94,32 @@
                 <source src="./trailers/Breaking Bad Trailer [HD].mp4" type="video/mp4">
             </video>
             
-        </div>
+        </header>
 
         <div class="spacer"></div>
+
+        <main>
 
         <section class = "movie-suggestions">
         <div class = "popular-movies">
             <p>Popular Movies</p>
             <p>View All</p>
         </div>
+  
         <div class = "content-container">
+            
+            <div class = "movie-card" style="background-image: url(https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_.jpg); background-size: cover">
+                <h3>Lord Of The Rings</h3>
+                <div class="info-section">
+                    
+                    <div class="age-container">16+</div>
+                    <div class="duration-container">48min</div>
+                </div>    
+                <a href="index.html" class="button button-sm">
+                    <i class="fa-solid fa-play"></i> 
+                    Play Now
+                </a>
+            </div>
             <div class = "movie-card">
                 <h3>MOVIE NAME</h3>
                 <div class="info-section">
@@ -138,61 +155,178 @@
             </div>
         </div>
         </section>
-
         <div class="spacer"></div>
-
-        <section class = "recommended-suggestions">
-        <div class = "popular-movies">
-            <p>Recommended for You</p>
-            <p>View All</p>
-        </div>
-        <div class ="content-container">
-            <div class = "movie-card">
-                <h3>MOVIE NAME</h3>
-                <div class="info-section">
-                    <div class="age-container">16+</div>
-                    <div class="duration-container">48min</div>
-                </div>    
-                <a href="index.html" class="button button-sm">
-                    <i class="fa-solid fa-play"></i> 
-                    Play Now
-                </a>
+        <section class = "movie-suggestions">
+            <div class = "popular-movies">
+                <p>Recommended for You</p>
+                <p>View All</p>
             </div>
-            <div class = "movie-card">
-                <h3>MOVIE NAME</h3>
-                <div class="info-section">
-                    <div class="age-container">16+</div>
-                    <div class="duration-container">48min</div>
-                </div>    
-                <a href="index.html" class="button button-sm">
-                    <i class="fa-solid fa-play"></i> 
-                    Play Now
-                </a>
-            </div>
-            <div class = "movie-card">
-                <h3>MOVIE NAME</h3>
-                <div class="info-section">
-                    <div class="age-container">16+</div>
-                    <div class="duration-container">48min</div>
-                </div>    
-                <a href="index.html" class="button button-sm">
-                    <i class="fa-solid fa-play"></i> 
-                    Play Now
-                </a>
+            <div class ="content-container">
+                <div class = "movie-card">
+                    <h3>MOVIE NAME</h3>
+                    <div class="info-section">
+                        <div class="age-container">16+</div>
+                        <div class="duration-container">48min</div>
+                    </div>    
+                    <a href="index.html" class="button button-sm">
+                        <i class="fa-solid fa-play"></i> 
+                        Play Now
+                    </a>
+                </div>
+                <div class = "movie-card">
+                    <h3>MOVIE NAME</h3>
+                    <div class="info-section">
+                        <div class="age-container">16+</div>
+                        <div class="duration-container">48min</div>
+                    </div>    
+                    <a href="index.html" class="button button-sm">
+                        <i class="fa-solid fa-play"></i> 
+                        Play Now
+                    </a>
+                </div>
+                <div class = "movie-card">
+                    <h3>MOVIE NAME</h3>
+                    <div class="info-section">
+                        <div class="age-container">16+</div>
+                        <div class="duration-container">48min</div>
+                    </div>    
+                    <a href="index.html" class="button button-sm">
+                        <i class="fa-solid fa-play"></i> 
+                        Play Now
+                    </a>
+                </div>  
+                <div class = "movie-card">
+                    <h3>MOVIE NAME</h3>
+                    <div class="info-section">
+                        <div class="age-container">16+</div>
+                        <div class="duration-container">48min</div>
+                    </div>    
+                    <a href="index.html" class="button button-sm">
+                        <i class="fa-solid fa-play"></i> 
+                        Play Now
+                    </a>
+                </div>
             </div>  
-        </div>  
         </section>
+        <div class="spacer"></div>
+        <section class = "movie-suggestions">
+            <div class = "popular-movies">
+                <p>Recommended for You</p>
+                <p>View All</p>
+            </div>
+            <div class ="content-container">
+                <div class = "movie-card">
+                    <h3>MOVIE NAME</h3>
+                    <div class="info-section">
+                        <div class="age-container">16+</div>
+                        <div class="duration-container">48min</div>
+                    </div>    
+                    <a href="index.html" class="button button-sm">
+                        <i class="fa-solid fa-play"></i> 
+                        Play Now
+                    </a>
+                </div>
+                <div class = "movie-card">
+                    <h3>MOVIE NAME</h3>
+                    <div class="info-section">
+                        <div class="age-container">16+</div>
+                        <div class="duration-container">48min</div>
+                    </div>    
+                    <a href="index.html" class="button button-sm">
+                        <i class="fa-solid fa-play"></i> 
+                        Play Now
+                    </a>
+                </div>
+                <div class = "movie-card">
+                    <h3>MOVIE NAME</h3>
+                    <div class="info-section">
+                        <div class="age-container">16+</div>
+                        <div class="duration-container">48min</div>
+                    </div>    
+                    <a href="index.html" class="button button-sm">
+                        <i class="fa-solid fa-play"></i> 
+                        Play Now
+                    </a>
+                </div>  
+                <div class = "movie-card">
+                    <h3>MOVIE NAME</h3>
+                    <div class="info-section">
+                        <div class="age-container">16+</div>
+                        <div class="duration-container">48min</div>
+                    </div>    
+                    <a href="index.html" class="button button-sm">
+                        <i class="fa-solid fa-play"></i> 
+                        Play Now
+                    </a>
+                </div>
+            </div>  
+        </section>
+        <div class="spacer"></div>
+        <section class = "movie-suggestions">
+            <div class = "popular-movies">
+                <p>Recommended for You</p>
+                <p>View All</p>
+            </div>
+            <div class ="content-container">
+                <div class = "movie-card">
+                    <h3>MOVIE NAME</h3>
+                    <div class="info-section">
+                        <div class="age-container">16+</div>
+                        <div class="duration-container">48min</div>
+                    </div>    
+                    <a href="index.html" class="button button-sm">
+                        <i class="fa-solid fa-play"></i> 
+                        Play Now
+                    </a>
+                </div>
+                <div class = "movie-card">
+                    <h3>MOVIE NAME</h3>
+                    <div class="info-section">
+                        <div class="age-container">16+</div>
+                        <div class="duration-container">48min</div>
+                    </div>    
+                    <a href="index.html" class="button button-sm">
+                        <i class="fa-solid fa-play"></i> 
+                        Play Now
+                    </a>
+                </div>
+                <div class = "movie-card">
+                    <h3>MOVIE NAME</h3>
+                    <div class="info-section">
+                        <div class="age-container">16+</div>
+                        <div class="duration-container">48min</div>
+                    </div>    
+                    <a href="index.html" class="button button-sm">
+                        <i class="fa-solid fa-play"></i> 
+                        Play Now
+                    </a>
+                </div>  
+                <div class = "movie-card">
+                    <h3>MOVIE NAME</h3>
+                    <div class="info-section">
+                        <div class="age-container">16+</div>
+                        <div class="duration-container">48min</div>
+                    </div>    
+                    <a href="index.html" class="button button-sm">
+                        <i class="fa-solid fa-play"></i> 
+                        Play Now
+                    </a>
+                </div>
+            </div>  
+        </section>
+        
+        </main>
 
         <div class="spacer"></div>
 
-        <footer>
-        <div class="footer-nav-container">
-            <nav>
-                <a href="#">Terms of Use</a>
-                <a href="#">Privacy-Policy</a>
-                <a href="#">FAQ</a>
-                <a href="#">Watch List</a>
-            </nav>
+        <footer class="footer-container">
+            <div class="footer-nav-container">
+                <nav>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Privacy-Policy</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Watch List</a>
+                    </nav>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
         </div>
              
@@ -206,8 +340,10 @@
         </div>
         <div class = "footer-apps">
             <h4>Apps</h4>
-            <a href="#"><img src="./assets/icons/applestore.png" /></a>
-            <a href="#"><img src="./assets/icons/googleplay.png" /></a>
+            <div class ="app-icons">
+            <a href="#"><i class="fa-brands fa-app-store-ios "></i></a>
+            <a href="#"><i class="fa-brands fa-google-play "></i></a>
+        </div>
         </div>
         </footer>
     </section>
