@@ -260,7 +260,7 @@ input[name="search"]{
     width:50%;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     
 }
 footer nav{
@@ -282,7 +282,7 @@ footer h4{
 .footer-social{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .social-icons{
@@ -295,7 +295,7 @@ footer h4{
 .footer-apps{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     flex-wrap: wrap;
 }
 
