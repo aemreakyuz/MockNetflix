@@ -175,7 +175,7 @@ input[name="search"]{
 
 .header-main-video-container{
     position: relative;
-    
+    padding-bottom: 1rem;
 }
 
 .main-video{
@@ -216,7 +216,7 @@ input[name="search"]{
 }
 
 .movie-card{
-    border:1px solid black;
+    border:1px solid white;
     width: 18rem;
     aspect-ratio: 2/1;
     padding: 1.2rem;
@@ -283,6 +283,8 @@ footer h4{
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    width: 10%;
+    align-items: center;
 }
 
 .social-icons{
@@ -295,8 +297,10 @@ footer h4{
 .footer-apps{
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 1rem;
     flex-wrap: wrap;
+    width: 10%;
 }
 
 .app-icons{
